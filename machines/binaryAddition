@@ -1,0 +1,58 @@
+states 11
+0
+1
+2
+3x
+3y
+4x
+4y
+5
+6
+7
+halt +
+alphabet 4 1 0 x y
+0 _ 1 _ R
+0 1 0 1 R
+0 0 0 0 R
+0 x 0 x R
+0 y 0 y R
+1 _ 2 _ L
+1 1 1 1 R
+1 0 1 0 R
+1 x 1 x R
+1 y 1 y R
+2 0 3x _ L
+2 1 3y _ L
+2 _ 7 _ L
+3x _ 4x _ L
+3x 1 3x 1 L
+3x 0 3x 0 L
+3x x 3x x L
+3x y 3x y L
+3y _ 4y _ L
+3y 1 3y 1 L
+3y 0 3y 0 L
+3y x 3y x L
+3y y 3y y L
+4x 0 0 x R
+4x 1 0 y R
+4x _ 0 x R
+4x x 4x x L
+4x y 4x y L
+4y 0 5 1 S
+4y 1 4y 0 L
+4y _ 5 1 S
+4y x 4y x L
+4y y 4y y L
+5 x 6 x L
+5 y 6 y L
+5 _ 6 _ L
+5 0 5 0 R
+5 1 5 1 R
+6 0 0 x R
+6 1 0 y R
+7 x 7 0 L
+7 y 7 1 L
+7 _ halt _ R
+7 0 7 0 L
+7 1 7 1 L

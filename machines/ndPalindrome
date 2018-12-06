@@ -1,0 +1,49 @@
+states 12
+start
+match0
+match1
+match2
+delete0
+delete1
+delete2
+goBack
+guess0
+guess1
+guess2
+done +
+alphabet 3 0 1 2
+start 0 match0 _ R
+start 0 guess0 _ R
+start 1 match1 _ R
+start 1 guess1 _ R
+start 2 match2 _ R
+start 2 guess2 _ R
+guess0 0 guess0 _ R
+guess0 _ done _ S
+guess1 1 guess1 _ R
+guess1 _ done _ S
+guess2 2 guess2 _ R
+guess2 _ done _ S
+start _ done _ R
+match0 0 match0 0 R
+match0 1 match0 1 R
+match0 2 match0 2 R
+match0 _ delete0 _ L
+match1 0 match1 0 R
+match1 1 match1 1 R
+match1 2 match1 2 R
+match1 _ delete1 _ L
+match2 0 match2 0 R
+match2 1 match2 1 R
+match2 2 match2 2 R
+match2 _ delete2 _ L
+delete0 0 goBack _ L
+delete0 _ done _ L
+delete1 1 goBack _ L
+delete1 _ done _ L
+delete2 2 goBack _ L
+delete2 _ done _ L
+goBack 0 goBack 0 L
+goBack 1 goBack 1 L
+goBack 2 goBack 2 L
+goBack _ start _ R

@@ -1,0 +1,12 @@
+states 4
+a
+b
+c
+h +
+alphabet 2 0 1
+a _ b 1 R
+a 1 h 1 R
+b _ c _ R
+b 1 b 1 R
+c _ c 1 L
+c 1 a 1 L

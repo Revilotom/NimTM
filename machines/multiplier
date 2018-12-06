@@ -1,0 +1,44 @@
+states 11
+s
+gb
+rx
+ry
+gtb
+r0
+gf
+f0
+back
+fin +
+resety
+alphabet 5 0 1 x y @
+s 0 s 0 R
+s 1 s 1 R
+s _ gb @ L
+gb 0 gb 0 L
+gb 1 rx 1 R
+rx 0 gtb x L
+rx @ fin @ R
+gtb 0 gtb 0 L
+gtb 1 gtb 1 L
+gtb x gtb x L
+gtb @ gtb @ L
+gtb y ry y R
+gtb _ ry _ R
+ry 0 r0 y R
+ry y ry y R
+ry 1 resety 1 L
+r0 0 r0 0 R
+r0 1 r0 1 R
+r0 x r0 x R
+r0 @ r0 @ R
+r0 _ gtb 0 L
+resety y resety 0 L
+resety _ gf _ R
+gf 0 gf 0 R
+gf 1 gf 1 R
+gf x f0 x R
+f0 x f0 x R
+f0 0 back 0 R
+f0 @ fin @ R
+back 0 rx 0 L
+back @ rx @ L

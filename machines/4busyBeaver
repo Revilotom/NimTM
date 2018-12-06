@@ -1,0 +1,15 @@
+states 5
+a
+b
+c
+d
+h +
+alphabet 2 0 1
+a _ b 1 R
+a 1 b 1 L
+b _ a 1 L
+b 1 c _ L
+c _ h 1 R
+c 1 d 1 L
+d _ d 1 R
+d 1 a _ R

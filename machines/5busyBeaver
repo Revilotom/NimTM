@@ -1,0 +1,18 @@
+states 6
+a
+b
+c
+d
+e
+h +
+alphabet 2 0 1
+a _ b 1 L
+a 1 a 1 L
+b _ c 1 R
+b 1 b 1 R
+c _ a 1 L
+c 1 d 1 R
+d _ a 1 L
+d 1 e 1 R
+e _ h 1 R
+e 1 c _ R

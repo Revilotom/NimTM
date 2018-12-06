@@ -1,0 +1,9 @@
+states 3
+a
+b
+h +
+alphabet 2 0 1
+a _ b 1 R
+a 1 b 1 L
+b _ a 1 L
+b 1 h 1 R

@@ -1,0 +1,10 @@
+states 4
+a
+b
+c
+d +
+alphabet 1 a
+a _ b _ R
+b a b a R
+b a c a R
+c _ d _ S

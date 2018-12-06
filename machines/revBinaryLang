@@ -1,0 +1,118 @@
+states 27
+a
+b
+c
+e
+f
+g
+h
+i
+j
+l
+m
+n
+p
+q
+r
+s
+t
+u
+v
+w
+x
+y
+z
+aa
+bb
+cc
+pass +
+alphabet 6 0 1 @ $ # &
+a 0 a 0 R
+a 1 a 1 R
+a # b $ R
+b & b & R
+b 1 c 0 R
+b # g $ R
+b $ g $ R
+b 0 r 0 R
+c 1 c 1 R
+c 0 c 0 R
+c & c & R
+c # f # R
+c _ e _ L
+e 0 e 0 L
+e 1 e 1 L
+e # e # L
+e & e & L
+e @ e @ L
+e $ b $ R
+f 1 e 0 L
+f 0 u 0 S
+f _ j _ L
+f @ f @ R
+g @ g @ R
+g $ g $ R
+g _ h _ L
+g 1 l 1 S
+g 0 l 0 S
+h @ h @ L
+h # h # L
+h $ h $ L
+h 0 h 0 L
+h 1 h 1 L
+h _ i _ R
+i 0 i _ R
+i $ pass $ R
+j 0 h @ L
+l 1 m @ L
+l 0 w @ R
+m 0 m 0 L
+m 1 m 1 L
+m $ m $ L
+m # m # L
+m @ m @ L
+m _ n _ R
+n 1 p _ R
+p 0 p 0 R
+p 1 p 1 R
+p $ p $ R
+p # p # R
+p @ q @ R
+q @ q @ R
+q _ bb _ L
+q 1 l 1 S
+q 0 l 0 S
+r 0 r 0 R
+r 1 t 0 L
+r # s # L
+s 0 b $ R
+t 0 t 1 L
+t $ c $ R
+u 0 u 0 R
+u 1 v 0 L
+v 0 v 1 L
+v # e # L
+w _ h _ L
+w 0 w 0 R
+w 1 x 1 L
+x 0 x 0 L
+x 1 x 1 L
+x $ x $ L
+x # x # L
+x @ x @ L
+x _ y _ R
+y 0 z _ R
+z 0 z 0 R
+z 1 z 1 R
+z $ z $ R
+z # z # R
+z @ aa @ R
+aa @ aa @ R
+aa _ pass _ L
+aa 1 l 1 S
+aa 0 l 0 S
+bb $ bb $ L
+bb @ bb @ L
+bb 0 bb 0 L
+bb _ cc _ R
+cc $ pass $ S
