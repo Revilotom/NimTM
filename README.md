@@ -8,8 +8,10 @@ nim c --d:release tm.nim
 
 #Usage
 
+
+```
 ./tm <descriptor filename> <input filename>
-./tm machines/5busyBeaver inputs/blank
+```
 
 ```
 time ./tm machines/5busyBeaver inputs/blank
