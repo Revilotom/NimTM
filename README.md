@@ -3,7 +3,7 @@ A turing machine emulator written in nim.
 
 #Build
 ```
-nim c --d:release -r tm.nim
+nim c --d:release tm.nim
 ```
 
 #Usage
