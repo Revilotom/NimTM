@@ -1,12 +1,12 @@
 # NimTM
 A turing machine emulator written in nim.
 
-#Build
+# Build
 ```
 nim c --d:release tm.nim
 ```
 
-#Usage
+# Usage
 
 
 ```
