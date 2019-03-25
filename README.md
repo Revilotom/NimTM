@@ -25,6 +25,6 @@ user	0m1.650s
 sys	0m0.000s
 ```
 
-As you can see it takes less than 2 seconds to execute the busy five state busy beaver.
+As you can see it takes less than 2 seconds to execute the five state busy beaver.
 
 
